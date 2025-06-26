@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1B0AB72DFBE0940009BBEE /* AllPlotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AB62DFBE0940009BBEE /* AllPlotsView.swift */; };
+		8C1B0AB92DFCAD1F0009BBEE /* PlotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AB82DFCAD1F0009BBEE /* PlotModel.swift */; };
+		8C1B0ABB2DFCAD380009BBEE /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0ABA2DFCAD380009BBEE /* PlantModel.swift */; };
+		8C8BDBE12E0DF8450030820C /* AddPlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BDBE02E0DF8450030820C /* AddPlotView.swift */; };
+		8C9600C22DFBC4C800F9C898 /* gnomewitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9600C12DFBC4C800F9C898 /* gnomewitApp.swift */; };
+		8C9600C42DFBC4C800F9C898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9600C32DFBC4C800F9C898 /* ContentView.swift */; };
+		8C9600C62DFBC4CF00F9C898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9600C52DFBC4CF00F9C898 /* Assets.xcassets */; };
+		8C9600C92DFBC4CF00F9C898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9600C82DFBC4CF00F9C898 /* Preview Assets.xcassets */; };
+		8C9600D32DFBC4CF00F9C898 /* gnomewitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9600D22DFBC4CF00F9C898 /* gnomewitTests.swift */; };
+		8C9600DD2DFBC4CF00F9C898 /* gnomewitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9600DC2DFBC4CF00F9C898 /* gnomewitUITests.swift */; };
+		8C9600DF2DFBC4CF00F9C898 /* gnomewitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9600DE2DFBC4CF00F9C898 /* gnomewitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C9600CF2DFBC4CF00F9C898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9600B62DFBC4C800F9C898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9600BD2DFBC4C800F9C898;
+			remoteInfo = gnomewit;
+		};
+		8C9600D92DFBC4CF00F9C898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9600B62DFBC4C800F9C898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9600BD2DFBC4C800F9C898;
+			remoteInfo = gnomewit;
+		};
+		8C9600F32DFBC64C00F9C898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9600B62DFBC4C800F9C898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9600BD2DFBC4C800F9C898;
+			remoteInfo = gnomewit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1B0AB62DFBE0940009BBEE /* AllPlotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlotsView.swift; sourceTree = "<group>"; };
+		8C1B0AB82DFCAD1F0009BBEE /* PlotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotModel.swift; sourceTree = "<group>"; };
+		8C1B0ABA2DFCAD380009BBEE /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		8C8BDBE02E0DF8450030820C /* AddPlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlotView.swift; sourceTree = "<group>"; };
+		8C9600BE2DFBC4C800F9C898 /* gnomewit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gnomewit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9600C12DFBC4C800F9C898 /* gnomewitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gnomewitApp.swift; sourceTree = "<group>"; };
+		8C9600C32DFBC4C800F9C898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C9600C52DFBC4CF00F9C898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9600C82DFBC4CF00F9C898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C9600CE2DFBC4CF00F9C898 /* gnomewitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gnomewitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9600D22DFBC4CF00F9C898 /* gnomewitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gnomewitTests.swift; sourceTree = "<group>"; };
+		8C9600D82DFBC4CF00F9C898 /* gnomewitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gnomewitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9600DC2DFBC4CF00F9C898 /* gnomewitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gnomewitUITests.swift; sourceTree = "<group>"; };
+		8C9600DE2DFBC4CF00F9C898 /* gnomewitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gnomewitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C9600EF2DFBC64B00F9C898 /* gnomewitUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gnomewitUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9600BB2DFBC4C800F9C898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600CB2DFBC4CF00F9C898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600D52DFBC4CF00F9C898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600EC2DFBC64B00F9C898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1B0AB22DFBE0230009BBEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB82DFCAD1F0009BBEE /* PlotModel.swift */,
+				8C1B0ABA2DFCAD380009BBEE /* PlantModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C1B0AB52DFBE06F0009BBEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB62DFBE0940009BBEE /* AllPlotsView.swift */,
+				8C8BDBE02E0DF8450030820C /* AddPlotView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C9600B52DFBC4C800F9C898 = {
+			isa = PBXGroup;
+			children = (
+				8C9600C02DFBC4C800F9C898 /* gnomewit */,
+				8C9600D12DFBC4CF00F9C898 /* gnomewitTests */,
+				8C9600DB2DFBC4CF00F9C898 /* gnomewitUITests */,
+				8C9600BF2DFBC4C800F9C898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9600BF2DFBC4C800F9C898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9600BE2DFBC4C800F9C898 /* gnomewit.app */,
+				8C9600CE2DFBC4CF00F9C898 /* gnomewitTests.xctest */,
+				8C9600D82DFBC4CF00F9C898 /* gnomewitUITests.xctest */,
+				8C9600EF2DFBC64B00F9C898 /* gnomewitUnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C9600C02DFBC4C800F9C898 /* gnomewit */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB52DFBE06F0009BBEE /* Views */,
+				8C1B0AB22DFBE0230009BBEE /* Models */,
+				8C9600C12DFBC4C800F9C898 /* gnomewitApp.swift */,
+				8C9600C32DFBC4C800F9C898 /* ContentView.swift */,
+				8C9600C52DFBC4CF00F9C898 /* Assets.xcassets */,
+				8C9600C72DFBC4CF00F9C898 /* Preview Content */,
+			);
+			path = gnomewit;
+			sourceTree = "<group>";
+		};
+		8C9600C72DFBC4CF00F9C898 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C9600C82DFBC4CF00F9C898 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C9600D12DFBC4CF00F9C898 /* gnomewitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C9600D22DFBC4CF00F9C898 /* gnomewitTests.swift */,
+			);
+			path = gnomewitTests;
+			sourceTree = "<group>";
+		};
+		8C9600DB2DFBC4CF00F9C898 /* gnomewitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C9600DC2DFBC4CF00F9C898 /* gnomewitUITests.swift */,
+				8C9600DE2DFBC4CF00F9C898 /* gnomewitUITestsLaunchTests.swift */,
+			);
+			path = gnomewitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9600BD2DFBC4C800F9C898 /* gnomewit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9600E22DFBC4CF00F9C898 /* Build configuration list for PBXNativeTarget "gnomewit" */;
+			buildPhases = (
+				8C9600BA2DFBC4C800F9C898 /* Sources */,
+				8C9600BB2DFBC4C800F9C898 /* Frameworks */,
+				8C9600BC2DFBC4C800F9C898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gnomewit;
+			productName = gnomewit;
+			productReference = 8C9600BE2DFBC4C800F9C898 /* gnomewit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C9600CD2DFBC4CF00F9C898 /* gnomewitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9600E52DFBC4D000F9C898 /* Build configuration list for PBXNativeTarget "gnomewitTests" */;
+			buildPhases = (
+				8C9600CA2DFBC4CF00F9C898 /* Sources */,
+				8C9600CB2DFBC4CF00F9C898 /* Frameworks */,
+				8C9600CC2DFBC4CF00F9C898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9600D02DFBC4CF00F9C898 /* PBXTargetDependency */,
+			);
+			name = gnomewitTests;
+			productName = gnomewitTests;
+			productReference = 8C9600CE2DFBC4CF00F9C898 /* gnomewitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C9600D72DFBC4CF00F9C898 /* gnomewitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9600E82DFBC4D000F9C898 /* Build configuration list for PBXNativeTarget "gnomewitUITests" */;
+			buildPhases = (
+				8C9600D42DFBC4CF00F9C898 /* Sources */,
+				8C9600D52DFBC4CF00F9C898 /* Frameworks */,
+				8C9600D62DFBC4CF00F9C898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9600DA2DFBC4CF00F9C898 /* PBXTargetDependency */,
+			);
+			name = gnomewitUITests;
+			productName = gnomewitUITests;
+			productReference = 8C9600D82DFBC4CF00F9C898 /* gnomewitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8C9600EE2DFBC64B00F9C898 /* gnomewitUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9600F52DFBC64C00F9C898 /* Build configuration list for PBXNativeTarget "gnomewitUnitTests" */;
+			buildPhases = (
+				8C9600EB2DFBC64B00F9C898 /* Sources */,
+				8C9600EC2DFBC64B00F9C898 /* Frameworks */,
+				8C9600ED2DFBC64B00F9C898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9600F42DFBC64C00F9C898 /* PBXTargetDependency */,
+			);
+			name = gnomewitUnitTests;
+			productName = gnomewitUnitTests;
+			productReference = 8C9600EF2DFBC64B00F9C898 /* gnomewitUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9600B62DFBC4C800F9C898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8C9600BD2DFBC4C800F9C898 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8C9600CD2DFBC4CF00F9C898 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8C9600BD2DFBC4C800F9C898;
+					};
+					8C9600D72DFBC4CF00F9C898 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8C9600BD2DFBC4C800F9C898;
+					};
+					8C9600EE2DFBC64B00F9C898 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8C9600BD2DFBC4C800F9C898;
+					};
+				};
+			};
+			buildConfigurationList = 8C9600B92DFBC4C800F9C898 /* Build configuration list for PBXProject "gnomewit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C9600B52DFBC4C800F9C898;
+			productRefGroup = 8C9600BF2DFBC4C800F9C898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9600BD2DFBC4C800F9C898 /* gnomewit */,
+				8C9600CD2DFBC4CF00F9C898 /* gnomewitTests */,
+				8C9600D72DFBC4CF00F9C898 /* gnomewitUITests */,
+				8C9600EE2DFBC64B00F9C898 /* gnomewitUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9600BC2DFBC4C800F9C898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9600C92DFBC4CF00F9C898 /* Preview Assets.xcassets in Resources */,
+				8C9600C62DFBC4CF00F9C898 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600CC2DFBC4CF00F9C898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600D62DFBC4CF00F9C898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600ED2DFBC64B00F9C898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9600BA2DFBC4C800F9C898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9600C42DFBC4C800F9C898 /* ContentView.swift in Sources */,
+				8C8BDBE12E0DF8450030820C /* AddPlotView.swift in Sources */,
+				8C9600C22DFBC4C800F9C898 /* gnomewitApp.swift in Sources */,
+				8C1B0AB92DFCAD1F0009BBEE /* PlotModel.swift in Sources */,
+				8C1B0ABB2DFCAD380009BBEE /* PlantModel.swift in Sources */,
+				8C1B0AB72DFBE0940009BBEE /* AllPlotsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600CA2DFBC4CF00F9C898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9600D32DFBC4CF00F9C898 /* gnomewitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600D42DFBC4CF00F9C898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9600DF2DFBC4CF00F9C898 /* gnomewitUITestsLaunchTests.swift in Sources */,
+				8C9600DD2DFBC4CF00F9C898 /* gnomewitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9600EB2DFBC64B00F9C898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C9600D02DFBC4CF00F9C898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9600BD2DFBC4C800F9C898 /* gnomewit */;
+			targetProxy = 8C9600CF2DFBC4CF00F9C898 /* PBXContainerItemProxy */;
+		};
+		8C9600DA2DFBC4CF00F9C898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9600BD2DFBC4C800F9C898 /* gnomewit */;
+			targetProxy = 8C9600D92DFBC4CF00F9C898 /* PBXContainerItemProxy */;
+		};
+		8C9600F42DFBC64C00F9C898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9600BD2DFBC4C800F9C898 /* gnomewit */;
+			targetProxy = 8C9600F32DFBC64C00F9C898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C9600E02DFBC4CF00F9C898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C9600E12DFBC4CF00F9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9600E32DFBC4CF00F9C898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gnomewit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C9600E42DFBC4CF00F9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gnomewit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C9600E62DFBC4D000F9C898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gnomewit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gnomewit";
+			};
+			name = Debug;
+		};
+		8C9600E72DFBC4D000F9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gnomewit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gnomewit";
+			};
+			name = Release;
+		};
+		8C9600E92DFBC4D000F9C898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gnomewit;
+			};
+			name = Debug;
+		};
+		8C9600EA2DFBC4D000F9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gnomewit;
+			};
+			name = Release;
+		};
+		8C9600F62DFBC64C00F9C898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gnomewit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gnomewit";
+			};
+			name = Debug;
+		};
+		8C9600F72DFBC64C00F9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = karlhouse.gnomewitUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gnomewit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gnomewit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9600B92DFBC4C800F9C898 /* Build configuration list for PBXProject "gnomewit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9600E02DFBC4CF00F9C898 /* Debug */,
+				8C9600E12DFBC4CF00F9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9600E22DFBC4CF00F9C898 /* Build configuration list for PBXNativeTarget "gnomewit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9600E32DFBC4CF00F9C898 /* Debug */,
+				8C9600E42DFBC4CF00F9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9600E52DFBC4D000F9C898 /* Build configuration list for PBXNativeTarget "gnomewitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9600E62DFBC4D000F9C898 /* Debug */,
+				8C9600E72DFBC4D000F9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9600E82DFBC4D000F9C898 /* Build configuration list for PBXNativeTarget "gnomewitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9600E92DFBC4D000F9C898 /* Debug */,
+				8C9600EA2DFBC4D000F9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9600F52DFBC64C00F9C898 /* Build configuration list for PBXNativeTarget "gnomewitUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9600F62DFBC64C00F9C898 /* Debug */,
+				8C9600F72DFBC64C00F9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9600B62DFBC4C800F9C898 /* Project object */;
+}
