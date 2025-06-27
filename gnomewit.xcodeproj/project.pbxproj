@@ -49,6 +49,7 @@
 		8C1B0AB82DFCAD1F0009BBEE /* PlotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotModel.swift; sourceTree = "<group>"; };
 		8C1B0ABA2DFCAD380009BBEE /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
 		8C8BDBE02E0DF8450030820C /* AddPlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlotView.swift; sourceTree = "<group>"; };
+		8C8BDBE22E0F27E50030820C /* notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
 		8C9600BE2DFBC4C800F9C898 /* gnomewit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gnomewit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9600C12DFBC4C800F9C898 /* gnomewitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gnomewitApp.swift; sourceTree = "<group>"; };
 		8C9600C32DFBC4C800F9C898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 				8C1B0AB22DFBE0230009BBEE /* Models */,
 				8C9600C12DFBC4C800F9C898 /* gnomewitApp.swift */,
 				8C9600C32DFBC4C800F9C898 /* ContentView.swift */,
+				8C8BDBE22E0F27E50030820C /* notes.md */,
 				8C9600C52DFBC4CF00F9C898 /* Assets.xcassets */,
 				8C9600C72DFBC4CF00F9C898 /* Preview Content */,
 			);
